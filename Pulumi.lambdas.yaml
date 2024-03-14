@@ -1,0 +1,4 @@
+encryptionsalt: v1:q1EuRZAzRAM=:v1:icRM1EtODkjFKMUc:Fw85JL0d9sK7CHmR6xoS7D/phbwVBg==
+config:
+  aws:profile: itgix
+  aws:region: eu-west-1

@@ -1,0 +1,23 @@
+---
+region: "eu-west-1"
+default_tags: {
+  pulumi_managed: "true"
+}
+vpc:
+  name: "vpc"
+  cidr: "10.0.0.0/16"
+  tenancy: "default"
+  gateway: "true"
+subnets:
+  - {
+    name: "subnet",
+    cidr: "10.0.1.0/24",
+    zone: "b"
+  }
+secrets:
+  app1: 
+    - { name: "var1", value: "asd1" }
+    - { name: "var2", value: "asd2" }
+    - { name: "var3", value: "asd3" }
+    - { name: "var4", value: "asd" }
+    - { name: "var5", value: "asd" }
